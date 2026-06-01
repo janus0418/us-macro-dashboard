@@ -2,6 +2,9 @@
 macro_dashboard.html
 indicator_catalog.json
 
+# Large CSV source — convert to all_macro_data.parquet via build_parquet_from_csv.ipynb
+all_macro_data_long.csv
+
 # Python / Jupyter
 __pycache__/
 *.pyc

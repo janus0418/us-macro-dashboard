@@ -9,6 +9,7 @@ A single-file, fully offline dashboard of US macro indicators (~2,800 series acr
 | `build_dashboard.py` | All build source in one file — regenerates the indicator catalog from the data, then builds the dashboard. |
 | `all_macro_data.parquet` | The data: long-format time series (`date, category, indicator, ticker, field, value`). |
 | `build_dashboard.ipynb` | One-click build notebook — *Run All Cells* to build and open the dashboard. |
+| `build_parquet_from_csv.ipynb` | Utility — rebuilds `all_macro_data.parquet` from `all_macro_data_long.csv` when you refresh the raw data. |
 
 ## Build it
 
